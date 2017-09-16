@@ -7,6 +7,7 @@
 //
 
 #import "FollowViewController.h"
+#import "ThirdTableViewController.h"
 
 @interface FollowViewController ()
 
@@ -18,6 +19,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+
+- (IBAction)openThirdUIList:(id)sender
+{
+    ThirdTableViewController * third = [[ThirdTableViewController alloc] init];
+    [self.navigationController pushViewController:third animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

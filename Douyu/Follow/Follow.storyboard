@@ -43,7 +43,18 @@
                             <constraint firstItem="oDb-2f-Sw7" firstAttribute="top" secondItem="Z9A-AG-fDn" secondAttribute="bottom" constant="8" symbolic="YES" id="vbR-xR-Veh"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="3XF-CY-vtM"/>
+                    <navigationItem key="navigationItem" id="3XF-CY-vtM">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="tO8-pL-t1U">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cDr-ab-BzQ">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ThirdUI"/>
+                                <connections>
+                                    <action selector="openThirdUIList:" destination="qj5-cp-nd5" eventType="touchUpInside" id="x0t-wM-Xnx"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ap-bL-tk9" sceneMemberID="firstResponder"/>
             </objects>

@@ -23,6 +23,9 @@
 		A656083B1F650EC10063E9A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65608361F650EC10063E9A2 /* Main.storyboard */; };
 		A656083C1F650EC10063E9A2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65608381F650EC10063E9A2 /* MainViewController.m */; };
 		A656083F1F650F4E0063E9A2 /* PageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A656083E1F650F4E0063E9A2 /* PageTitleView.m */; };
+		A65D3B271F6D30A900117D55 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65D3B261F6D30A900117D55 /* PopViewController.m */; };
+		A65D3B2A1F6D314D00117D55 /* DemoPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65D3B291F6D314D00117D55 /* DemoPopViewController.m */; };
+		A65D3B321F6D344E00117D55 /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65D3B311F6D344E00117D55 /* ThirdTableViewController.m */; };
 		A6CCB9991F6512F000428D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CCB9981F6512F000428D21 /* Assets.xcassets */; };
 		A6CCB99E1F652F2000428D21 /* PageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CCB99D1F652F2000428D21 /* PageContentView.m */; };
 		A6CCB9A11F654D6500428D21 /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CCB9A01F654D6500428D21 /* UIColor+Utils.m */; };
@@ -76,6 +79,12 @@
 		A65608381F650EC10063E9A2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		A656083D1F650F4E0063E9A2 /* PageTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageTitleView.h; sourceTree = "<group>"; };
 		A656083E1F650F4E0063E9A2 /* PageTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTitleView.m; sourceTree = "<group>"; };
+		A65D3B251F6D30A900117D55 /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
+		A65D3B261F6D30A900117D55 /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
+		A65D3B281F6D314D00117D55 /* DemoPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoPopViewController.h; sourceTree = "<group>"; };
+		A65D3B291F6D314D00117D55 /* DemoPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoPopViewController.m; sourceTree = "<group>"; };
+		A65D3B301F6D344E00117D55 /* ThirdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewController.h; sourceTree = "<group>"; };
+		A65D3B311F6D344E00117D55 /* ThirdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewController.m; sourceTree = "<group>"; };
 		A6CCB9981F6512F000428D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6CCB99B1F6520CE00428D21 /* ConstValues.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstValues.h; sourceTree = "<group>"; };
 		A6CCB99C1F652F2000428D21 /* PageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentView.h; sourceTree = "<group>"; };
@@ -133,6 +142,7 @@
 		A65607C31F6506BC0063E9A2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A65D3B1D1F6D2F3500117D55 /* ThirdUI */,
 				A656080F1F650BEC0063E9A2 /* Main */,
 				A656080E1F650BEC0063E9A2 /* Home */,
 				A65608111F650C830063E9A2 /* Live */,
@@ -352,6 +362,75 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A65D3B1D1F6D2F3500117D55 /* ThirdUI */ = {
+			isa = PBXGroup;
+			children = (
+				A65D3B1E1F6D304100117D55 /* Animation */,
+				A65D3B1F1F6D304100117D55 /* Media */,
+				A65D3B201F6D304100117D55 /* OpenGL */,
+				A65D3B211F6D304100117D55 /* Player */,
+				A65D3B221F6D304100117D55 /* UI */,
+				A65D3B231F6D304100117D55 /* UI-Transition */,
+				A65D3B301F6D344E00117D55 /* ThirdTableViewController.h */,
+				A65D3B311F6D344E00117D55 /* ThirdTableViewController.m */,
+			);
+			path = ThirdUI;
+			sourceTree = "<group>";
+		};
+		A65D3B1E1F6D304100117D55 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		A65D3B1F1F6D304100117D55 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		A65D3B201F6D304100117D55 /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OpenGL;
+			sourceTree = "<group>";
+		};
+		A65D3B211F6D304100117D55 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		A65D3B221F6D304100117D55 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A65D3B241F6D30A900117D55 /* Popover */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A65D3B231F6D304100117D55 /* UI-Transition */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UI-Transition";
+			sourceTree = "<group>";
+		};
+		A65D3B241F6D30A900117D55 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				A65D3B281F6D314D00117D55 /* DemoPopViewController.h */,
+				A65D3B291F6D314D00117D55 /* DemoPopViewController.m */,
+				A65D3B251F6D30A900117D55 /* PopViewController.h */,
+				A65D3B261F6D30A900117D55 /* PopViewController.m */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
 		A6CCB99A1F651E3500428D21 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -508,10 +587,13 @@
 				A656081C1F650D8F0063E9A2 /* FollowViewController.m in Sources */,
 				A656083C1F650EC10063E9A2 /* MainViewController.m in Sources */,
 				A656083F1F650F4E0063E9A2 /* PageTitleView.m in Sources */,
+				A65D3B271F6D30A900117D55 /* PopViewController.m in Sources */,
 				A656082C1F650E7D0063E9A2 /* LiveViewController.m in Sources */,
 				A6CCB9A11F654D6500428D21 /* UIColor+Utils.m in Sources */,
+				A65D3B2A1F6D314D00117D55 /* DemoPopViewController.m in Sources */,
 				A65607C61F6506BC0063E9A2 /* main.m in Sources */,
 				A65608341F650E950063E9A2 /* HomeViewController.m in Sources */,
+				A65D3B321F6D344E00117D55 /* ThirdTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
