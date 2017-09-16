@@ -1,0 +1,35 @@
+//
+//  IOSTutorial.pch
+//  iOSTutorial
+//
+//  Created by Shui on 2017/9/16.
+//  Copyright © 2017年 Shui. All rights reserved.
+//
+
+#ifndef IOSTutorial_pch
+#define IOSTutorial_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#endif
+
+#define DEGREES_TO_RADIANS(d) (d * M_PI / 180)
+
+static CGPoint midPoint(CGRect r) {
+    return CGPointMake(CGRectGetMidX(r), CGRectGetMidY(r));
+}
+
+static CATransform3D CATransform3DMakePerspective(CGFloat z) {
+    CATransform3D t = CATransform3DIdentity;
+    t.m34 = - 1.0 / z;
+    return t;
+}
+
+
+#endif /* IOSTutorial_pch */

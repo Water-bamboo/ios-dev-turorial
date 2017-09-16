@@ -26,6 +26,27 @@
 		A65D3B271F6D30A900117D55 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65D3B261F6D30A900117D55 /* PopViewController.m */; };
 		A65D3B2A1F6D314D00117D55 /* DemoPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65D3B291F6D314D00117D55 /* DemoPopViewController.m */; };
 		A65D3B321F6D344E00117D55 /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65D3B311F6D344E00117D55 /* ThirdTableViewController.m */; };
+		A663FF4E1F6D5BAD00E18CB7 /* CADemoRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6ACC1F6D597600351A9C /* CADemoRootTableViewController.m */; };
+		A663FF501F6D5E1900E18CB7 /* LeavesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6ACF1F6D597600351A9C /* LeavesViewController.m */; };
+		A663FF511F6D5E1900E18CB7 /* AVPlayerLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6AD21F6D597600351A9C /* AVPlayerLayerViewController.m */; };
+		A663FF521F6D5E1900E18CB7 /* BatmanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6AD41F6D597600351A9C /* BatmanViewController.m */; };
+		A663FF531F6D5E1900E18CB7 /* CALayer+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6AD61F6D597600351A9C /* CALayer+Additions.m */; };
+		A663FF541F6D5E1900E18CB7 /* ImplicitAnimationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6AD81F6D597600351A9C /* ImplicitAnimationsViewController.m */; };
+		A663FF551F6D5E1900E18CB7 /* MakeItStickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6ADA1F6D597600351A9C /* MakeItStickViewController.m */; };
+		A663FF561F6D5E1900E18CB7 /* NSAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6ADC1F6D597600351A9C /* NSAViewController.m */; };
+		A663FF571F6D5E1900E18CB7 /* PacmanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6ADE1F6D597600351A9C /* PacmanViewController.m */; };
+		A663FF581F6D5E1900E18CB7 /* PulseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6AE01F6D597600351A9C /* PulseViewController.m */; };
+		A663FF591F6D5E1900E18CB7 /* ReflectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6AE21F6D597600351A9C /* ReflectionViewController.m */; };
+		A663FF5A1F6D5E1900E18CB7 /* SublayerTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6AE41F6D597600351A9C /* SublayerTransformViewController.m */; };
+		A663FF5B1F6D5E1900E18CB7 /* TachometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6AE61F6D597600351A9C /* TachometerViewController.m */; };
+		A663FF5C1F6D5E3800E18CB7 /* FlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6B0E1F6D597600351A9C /* FlipViewController.m */; };
+		A663FF5D1F6D5E3800E18CB7 /* NoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6B101F6D597600351A9C /* NoteView.m */; };
+		A663FF5E1F6D5E3800E18CB7 /* SimpleViewPropertyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6B121F6D597600351A9C /* SimpleViewPropertyAnimation.m */; };
+		A663FF5F1F6D5E3800E18CB7 /* StickyNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6B141F6D597600351A9C /* StickyNotesViewController.m */; };
+		A663FF601F6D5E9100E18CB7 /* BatmanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC6B071F6D597600351A9C /* BatmanView.xib */; };
+		A663FF611F6D5E9100E18CB7 /* CoreAnimationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC6B081F6D597600351A9C /* CoreAnimationView.xib */; };
+		A663FF621F6D5E9100E18CB7 /* LayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC6B091F6D597600351A9C /* LayerView.xib */; };
+		A663FF631F6D5E9100E18CB7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC6B0B1F6D597600351A9C /* RootViewController.xib */; };
 		A6CCB9991F6512F000428D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CCB9981F6512F000428D21 /* Assets.xcassets */; };
 		A6CCB99E1F652F2000428D21 /* PageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CCB99D1F652F2000428D21 /* PageContentView.m */; };
 		A6CCB9A11F654D6500428D21 /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CCB9A01F654D6500428D21 /* UIColor+Utils.m */; };
@@ -114,6 +135,7 @@
 		A65D3B291F6D314D00117D55 /* DemoPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoPopViewController.m; sourceTree = "<group>"; };
 		A65D3B301F6D344E00117D55 /* ThirdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewController.h; sourceTree = "<group>"; };
 		A65D3B311F6D344E00117D55 /* ThirdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewController.m; sourceTree = "<group>"; };
+		A663FF4F1F6D5C0500E18CB7 /* IOSTutorial.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTutorial.pch; sourceTree = "<group>"; };
 		A6CCB9981F6512F000428D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6CCB99B1F6520CE00428D21 /* ConstValues.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstValues.h; sourceTree = "<group>"; };
 		A6CCB99C1F652F2000428D21 /* PageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentView.h; sourceTree = "<group>"; };
@@ -172,6 +194,69 @@
 		A6FC6AA91F6D4CCD00351A9C /* AAPLSwipeTransitionInteractionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLSwipeTransitionInteractionController.m; sourceTree = "<group>"; };
 		A6FC6AAA1F6D4CCD00351A9C /* Swipe.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Swipe.storyboard; sourceTree = "<group>"; };
 		A6FC6AC81F6D530A00351A9C /* CustomTransition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomTransition.storyboard; sourceTree = "<group>"; };
+		A6FC6ACB1F6D597600351A9C /* CADemoRootTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CADemoRootTableViewController.h; sourceTree = "<group>"; };
+		A6FC6ACC1F6D597600351A9C /* CADemoRootTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADemoRootTableViewController.m; sourceTree = "<group>"; };
+		A6FC6ACE1F6D597600351A9C /* LeavesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeavesViewController.h; sourceTree = "<group>"; };
+		A6FC6ACF1F6D597600351A9C /* LeavesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeavesViewController.m; sourceTree = "<group>"; };
+		A6FC6AD11F6D597600351A9C /* AVPlayerLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerLayerViewController.h; sourceTree = "<group>"; };
+		A6FC6AD21F6D597600351A9C /* AVPlayerLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerLayerViewController.m; sourceTree = "<group>"; };
+		A6FC6AD31F6D597600351A9C /* BatmanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BatmanViewController.h; sourceTree = "<group>"; };
+		A6FC6AD41F6D597600351A9C /* BatmanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatmanViewController.m; sourceTree = "<group>"; };
+		A6FC6AD51F6D597600351A9C /* CALayer+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+Additions.h"; sourceTree = "<group>"; };
+		A6FC6AD61F6D597600351A9C /* CALayer+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Additions.m"; sourceTree = "<group>"; };
+		A6FC6AD71F6D597600351A9C /* ImplicitAnimationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImplicitAnimationsViewController.h; sourceTree = "<group>"; };
+		A6FC6AD81F6D597600351A9C /* ImplicitAnimationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimationsViewController.m; sourceTree = "<group>"; };
+		A6FC6AD91F6D597600351A9C /* MakeItStickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakeItStickViewController.h; sourceTree = "<group>"; };
+		A6FC6ADA1F6D597600351A9C /* MakeItStickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeItStickViewController.m; sourceTree = "<group>"; };
+		A6FC6ADB1F6D597600351A9C /* NSAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSAViewController.h; sourceTree = "<group>"; };
+		A6FC6ADC1F6D597600351A9C /* NSAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSAViewController.m; sourceTree = "<group>"; };
+		A6FC6ADD1F6D597600351A9C /* PacmanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacmanViewController.h; sourceTree = "<group>"; };
+		A6FC6ADE1F6D597600351A9C /* PacmanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacmanViewController.m; sourceTree = "<group>"; };
+		A6FC6ADF1F6D597600351A9C /* PulseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PulseViewController.h; sourceTree = "<group>"; };
+		A6FC6AE01F6D597600351A9C /* PulseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PulseViewController.m; sourceTree = "<group>"; };
+		A6FC6AE11F6D597600351A9C /* ReflectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReflectionViewController.h; sourceTree = "<group>"; };
+		A6FC6AE21F6D597600351A9C /* ReflectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReflectionViewController.m; sourceTree = "<group>"; };
+		A6FC6AE31F6D597600351A9C /* SublayerTransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SublayerTransformViewController.h; sourceTree = "<group>"; };
+		A6FC6AE41F6D597600351A9C /* SublayerTransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SublayerTransformViewController.m; sourceTree = "<group>"; };
+		A6FC6AE51F6D597600351A9C /* TachometerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TachometerViewController.h; sourceTree = "<group>"; };
+		A6FC6AE61F6D597600351A9C /* TachometerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TachometerViewController.m; sourceTree = "<group>"; };
+		A6FC6AE91F6D597600351A9C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A6FC6AEC1F6D597600351A9C /* engine.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = engine.caf; sourceTree = "<group>"; };
+		A6FC6AEE1F6D597600351A9C /* arrow-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down.png"; sourceTree = "<group>"; };
+		A6FC6AEF1F6D597600351A9C /* arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left.png"; sourceTree = "<group>"; };
+		A6FC6AF01F6D597600351A9C /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
+		A6FC6AF11F6D597600351A9C /* arrow-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up.png"; sourceTree = "<group>"; };
+		A6FC6AF21F6D597600351A9C /* backView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backView.png; sourceTree = "<group>"; };
+		A6FC6AF31F6D597600351A9C /* batman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batman.png; sourceTree = "<group>"; };
+		A6FC6AF41F6D597600351A9C /* batman@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "batman@2x.png"; sourceTree = "<group>"; };
+		A6FC6AF51F6D597600351A9C /* BatmanButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BatmanButton.png; sourceTree = "<group>"; };
+		A6FC6AF61F6D597600351A9C /* BatmanButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BatmanButton@2x.png"; sourceTree = "<group>"; };
+		A6FC6AF71F6D597600351A9C /* BobMcCune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BobMcCune.png; sourceTree = "<group>"; };
+		A6FC6AF81F6D597600351A9C /* caLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caLogo.png; sourceTree = "<group>"; };
+		A6FC6AF91F6D597600351A9C /* corkboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corkboard.png; sourceTree = "<group>"; };
+		A6FC6AFA1F6D597600351A9C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A6FC6AFB1F6D597600351A9C /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		A6FC6AFC1F6D597600351A9C /* mountains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountains.png; sourceTree = "<group>"; };
+		A6FC6AFD1F6D597600351A9C /* new_note_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_note_icon.png; sourceTree = "<group>"; };
+		A6FC6AFE1F6D597600351A9C /* obama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obama.png; sourceTree = "<group>"; };
+		A6FC6AFF1F6D597600351A9C /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pattern.png; sourceTree = "<group>"; };
+		A6FC6B001F6D597600351A9C /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		A6FC6B011F6D597600351A9C /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin@2x.png"; sourceTree = "<group>"; };
+		A6FC6B021F6D597600351A9C /* tach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tach.png; sourceTree = "<group>"; };
+		A6FC6B031F6D597600351A9C /* tach@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tach@2x.png"; sourceTree = "<group>"; };
+		A6FC6B051F6D597600351A9C /* cyborg.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = cyborg.m4v; sourceTree = "<group>"; };
+		A6FC6B071F6D597600351A9C /* BatmanView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BatmanView.xib; sourceTree = "<group>"; };
+		A6FC6B081F6D597600351A9C /* CoreAnimationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreAnimationView.xib; sourceTree = "<group>"; };
+		A6FC6B091F6D597600351A9C /* LayerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LayerView.xib; sourceTree = "<group>"; };
+		A6FC6B0B1F6D597600351A9C /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		A6FC6B0D1F6D597600351A9C /* FlipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipViewController.h; sourceTree = "<group>"; };
+		A6FC6B0E1F6D597600351A9C /* FlipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipViewController.m; sourceTree = "<group>"; };
+		A6FC6B0F1F6D597600351A9C /* NoteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteView.h; sourceTree = "<group>"; };
+		A6FC6B101F6D597600351A9C /* NoteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteView.m; sourceTree = "<group>"; };
+		A6FC6B111F6D597600351A9C /* SimpleViewPropertyAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleViewPropertyAnimation.h; sourceTree = "<group>"; };
+		A6FC6B121F6D597600351A9C /* SimpleViewPropertyAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleViewPropertyAnimation.m; sourceTree = "<group>"; };
+		A6FC6B131F6D597600351A9C /* StickyNotesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StickyNotesViewController.h; sourceTree = "<group>"; };
+		A6FC6B141F6D597600351A9C /* StickyNotesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StickyNotesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,8 +317,6 @@
 				A6CCB9981F6512F000428D21 /* Assets.xcassets */,
 				A65607C71F6506BC0063E9A2 /* AppDelegate.h */,
 				A65607C81F6506BC0063E9A2 /* AppDelegate.m */,
-				A65607D51F6506BC0063E9A2 /* LaunchScreen.storyboard */,
-				A65607D81F6506BC0063E9A2 /* Info.plist */,
 				A65607C41F6506BC0063E9A2 /* Supporting Files */,
 				A6CCB99B1F6520CE00428D21 /* ConstValues.h */,
 			);
@@ -244,8 +327,11 @@
 		A65607C41F6506BC0063E9A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A65607D51F6506BC0063E9A2 /* LaunchScreen.storyboard */,
+				A65607D81F6506BC0063E9A2 /* Info.plist */,
 				A6CCB9A71F69759A00428D21 /* YYS(WL)-color.mp4 */,
 				A65607C51F6506BC0063E9A2 /* main.m */,
+				A663FF4F1F6D5C0500E18CB7 /* IOSTutorial.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -460,6 +546,7 @@
 		A65D3B1E1F6D304100117D55 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				A6FC6ACA1F6D597600351A9C /* bobmccune.com */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -627,6 +714,140 @@
 			path = Swipe;
 			sourceTree = "<group>";
 		};
+		A6FC6ACA1F6D597600351A9C /* bobmccune.com */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6ACB1F6D597600351A9C /* CADemoRootTableViewController.h */,
+				A6FC6ACC1F6D597600351A9C /* CADemoRootTableViewController.m */,
+				A6FC6ACD1F6D597600351A9C /* CGAffineTransform */,
+				A6FC6AD01F6D597600351A9C /* CoreAnimation */,
+				A6FC6AE91F6D597600351A9C /* README.md */,
+				A6FC6AEA1F6D597600351A9C /* Resources */,
+				A6FC6B0C1F6D597600351A9C /* UIKitAnimation */,
+			);
+			path = bobmccune.com;
+			sourceTree = "<group>";
+		};
+		A6FC6ACD1F6D597600351A9C /* CGAffineTransform */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6ACE1F6D597600351A9C /* LeavesViewController.h */,
+				A6FC6ACF1F6D597600351A9C /* LeavesViewController.m */,
+			);
+			path = CGAffineTransform;
+			sourceTree = "<group>";
+		};
+		A6FC6AD01F6D597600351A9C /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6AD11F6D597600351A9C /* AVPlayerLayerViewController.h */,
+				A6FC6AD21F6D597600351A9C /* AVPlayerLayerViewController.m */,
+				A6FC6AD31F6D597600351A9C /* BatmanViewController.h */,
+				A6FC6AD41F6D597600351A9C /* BatmanViewController.m */,
+				A6FC6AD51F6D597600351A9C /* CALayer+Additions.h */,
+				A6FC6AD61F6D597600351A9C /* CALayer+Additions.m */,
+				A6FC6AD71F6D597600351A9C /* ImplicitAnimationsViewController.h */,
+				A6FC6AD81F6D597600351A9C /* ImplicitAnimationsViewController.m */,
+				A6FC6AD91F6D597600351A9C /* MakeItStickViewController.h */,
+				A6FC6ADA1F6D597600351A9C /* MakeItStickViewController.m */,
+				A6FC6ADB1F6D597600351A9C /* NSAViewController.h */,
+				A6FC6ADC1F6D597600351A9C /* NSAViewController.m */,
+				A6FC6ADD1F6D597600351A9C /* PacmanViewController.h */,
+				A6FC6ADE1F6D597600351A9C /* PacmanViewController.m */,
+				A6FC6ADF1F6D597600351A9C /* PulseViewController.h */,
+				A6FC6AE01F6D597600351A9C /* PulseViewController.m */,
+				A6FC6AE11F6D597600351A9C /* ReflectionViewController.h */,
+				A6FC6AE21F6D597600351A9C /* ReflectionViewController.m */,
+				A6FC6AE31F6D597600351A9C /* SublayerTransformViewController.h */,
+				A6FC6AE41F6D597600351A9C /* SublayerTransformViewController.m */,
+				A6FC6AE51F6D597600351A9C /* TachometerViewController.h */,
+				A6FC6AE61F6D597600351A9C /* TachometerViewController.m */,
+			);
+			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		A6FC6AEA1F6D597600351A9C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6AEB1F6D597600351A9C /* Audio */,
+				A6FC6AED1F6D597600351A9C /* Images */,
+				A6FC6B041F6D597600351A9C /* Videos */,
+				A6FC6B061F6D597600351A9C /* XIBs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A6FC6AEB1F6D597600351A9C /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6AEC1F6D597600351A9C /* engine.caf */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		A6FC6AED1F6D597600351A9C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6AEE1F6D597600351A9C /* arrow-down.png */,
+				A6FC6AEF1F6D597600351A9C /* arrow-left.png */,
+				A6FC6AF01F6D597600351A9C /* arrow-right.png */,
+				A6FC6AF11F6D597600351A9C /* arrow-up.png */,
+				A6FC6AF21F6D597600351A9C /* backView.png */,
+				A6FC6AF31F6D597600351A9C /* batman.png */,
+				A6FC6AF41F6D597600351A9C /* batman@2x.png */,
+				A6FC6AF51F6D597600351A9C /* BatmanButton.png */,
+				A6FC6AF61F6D597600351A9C /* BatmanButton@2x.png */,
+				A6FC6AF71F6D597600351A9C /* BobMcCune.png */,
+				A6FC6AF81F6D597600351A9C /* caLogo.png */,
+				A6FC6AF91F6D597600351A9C /* corkboard.png */,
+				A6FC6AFA1F6D597600351A9C /* Default-568h@2x.png */,
+				A6FC6AFB1F6D597600351A9C /* heart.png */,
+				A6FC6AFC1F6D597600351A9C /* mountains.png */,
+				A6FC6AFD1F6D597600351A9C /* new_note_icon.png */,
+				A6FC6AFE1F6D597600351A9C /* obama.png */,
+				A6FC6AFF1F6D597600351A9C /* pattern.png */,
+				A6FC6B001F6D597600351A9C /* pin.png */,
+				A6FC6B011F6D597600351A9C /* pin@2x.png */,
+				A6FC6B021F6D597600351A9C /* tach.png */,
+				A6FC6B031F6D597600351A9C /* tach@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A6FC6B041F6D597600351A9C /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6B051F6D597600351A9C /* cyborg.m4v */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		A6FC6B061F6D597600351A9C /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6B071F6D597600351A9C /* BatmanView.xib */,
+				A6FC6B081F6D597600351A9C /* CoreAnimationView.xib */,
+				A6FC6B091F6D597600351A9C /* LayerView.xib */,
+				A6FC6B0B1F6D597600351A9C /* RootViewController.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		A6FC6B0C1F6D597600351A9C /* UIKitAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6B0D1F6D597600351A9C /* FlipViewController.h */,
+				A6FC6B0E1F6D597600351A9C /* FlipViewController.m */,
+				A6FC6B0F1F6D597600351A9C /* NoteView.h */,
+				A6FC6B101F6D597600351A9C /* NoteView.m */,
+				A6FC6B111F6D597600351A9C /* SimpleViewPropertyAnimation.h */,
+				A6FC6B121F6D597600351A9C /* SimpleViewPropertyAnimation.m */,
+				A6FC6B131F6D597600351A9C /* StickyNotesViewController.h */,
+				A6FC6B141F6D597600351A9C /* StickyNotesViewController.m */,
+			);
+			path = UIKitAnimation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -736,6 +957,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A663FF601F6D5E9100E18CB7 /* BatmanView.xib in Resources */,
+				A663FF611F6D5E9100E18CB7 /* CoreAnimationView.xib in Resources */,
+				A663FF621F6D5E9100E18CB7 /* LayerView.xib in Resources */,
+				A663FF631F6D5E9100E18CB7 /* RootViewController.xib in Resources */,
 				A6FC6AC91F6D536500351A9C /* CustomTransition.storyboard in Resources */,
 				A6FC6AB11F6D521600351A9C /* Swipe.storyboard in Resources */,
 				A6FC6AB01F6D520F00351A9C /* Slide.storyboard in Resources */,
@@ -775,6 +1000,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A663FF5C1F6D5E3800E18CB7 /* FlipViewController.m in Sources */,
+				A663FF5D1F6D5E3800E18CB7 /* NoteView.m in Sources */,
+				A663FF5E1F6D5E3800E18CB7 /* SimpleViewPropertyAnimation.m in Sources */,
+				A663FF5F1F6D5E3800E18CB7 /* StickyNotesViewController.m in Sources */,
+				A663FF501F6D5E1900E18CB7 /* LeavesViewController.m in Sources */,
+				A663FF511F6D5E1900E18CB7 /* AVPlayerLayerViewController.m in Sources */,
+				A663FF521F6D5E1900E18CB7 /* BatmanViewController.m in Sources */,
+				A663FF531F6D5E1900E18CB7 /* CALayer+Additions.m in Sources */,
+				A663FF541F6D5E1900E18CB7 /* ImplicitAnimationsViewController.m in Sources */,
+				A663FF551F6D5E1900E18CB7 /* MakeItStickViewController.m in Sources */,
+				A663FF561F6D5E1900E18CB7 /* NSAViewController.m in Sources */,
+				A663FF571F6D5E1900E18CB7 /* PacmanViewController.m in Sources */,
+				A663FF581F6D5E1900E18CB7 /* PulseViewController.m in Sources */,
+				A663FF591F6D5E1900E18CB7 /* ReflectionViewController.m in Sources */,
+				A663FF5A1F6D5E1900E18CB7 /* SublayerTransformViewController.m in Sources */,
+				A663FF5B1F6D5E1900E18CB7 /* TachometerViewController.m in Sources */,
+				A663FF4E1F6D5BAD00E18CB7 /* CADemoRootTableViewController.m in Sources */,
 				A6FC6AB21F6D527600351A9C /* AAPLExternalStoryboardSegue.m in Sources */,
 				A6FC6AB31F6D527600351A9C /* AAPLMenuViewController.m in Sources */,
 				A6FC6AB41F6D527600351A9C /* AAPLAdaptivePresentationController.m in Sources */,
@@ -965,6 +1207,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9MRTAS9UAP;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Douyu/IOSTutorial.pch;
 				INFOPLIST_FILE = Douyu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -978,6 +1223,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9MRTAS9UAP;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Douyu/IOSTutorial.pch;
 				INFOPLIST_FILE = Douyu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

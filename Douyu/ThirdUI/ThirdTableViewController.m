@@ -8,6 +8,7 @@
 
 #import "ThirdTableViewController.h"
 #import "DemoPopViewController.h"
+#import "CADemoRootTableViewController.h"
 
 static NSString *REUSABLE_CELL_ID = @"REUSABLE_CELL_ID";
 
@@ -29,8 +30,8 @@ static NSString *REUSABLE_CELL_ID = @"REUSABLE_CELL_ID";
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     self.navigationItem.title = @"所有的例子";
-    
-    NSDictionary *sectionList = @{@"Animation":[NSNull class],
+
+    NSDictionary *sectionList = @{@"Animation":@[[CADemoRootTableViewController class]],
                                   @"Media":[NSNull class],
                                   @"OpenGL":[NSNull class],
                                   @"Player":[NSNull class],
