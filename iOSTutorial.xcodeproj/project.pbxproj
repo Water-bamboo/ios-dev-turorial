@@ -30,6 +30,35 @@
 		A6CCB99E1F652F2000428D21 /* PageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CCB99D1F652F2000428D21 /* PageContentView.m */; };
 		A6CCB9A11F654D6500428D21 /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CCB9A01F654D6500428D21 /* UIColor+Utils.m */; };
 		A6CCB9A81F69759A00428D21 /* YYS(WL)-color.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A6CCB9A71F69759A00428D21 /* YYS(WL)-color.mp4 */; };
+		A6FC6AAC1F6D51EB00351A9C /* AdaptivePresentation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FC6A791F6D4CCD00351A9C /* AdaptivePresentation.storyboard */; };
+		A6FC6AAD1F6D51F600351A9C /* Checkerboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FC6A831F6D4CCD00351A9C /* Checkerboard.storyboard */; };
+		A6FC6AAE1F6D51FF00351A9C /* CrossDissolve.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FC6A8B1F6D4CCD00351A9C /* CrossDissolve.storyboard */; };
+		A6FC6AAF1F6D520700351A9C /* CustomPresentation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FC6A931F6D4CCD00351A9C /* CustomPresentation.storyboard */; };
+		A6FC6AB01F6D520F00351A9C /* Slide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FC6A9E1F6D4CCD00351A9C /* Slide.storyboard */; };
+		A6FC6AB11F6D521600351A9C /* Swipe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FC6AAA1F6D4CCD00351A9C /* Swipe.storyboard */; };
+		A6FC6AB21F6D527600351A9C /* AAPLExternalStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A6D1F6D4CCD00351A9C /* AAPLExternalStoryboardSegue.m */; };
+		A6FC6AB31F6D527600351A9C /* AAPLMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A6F1F6D4CCD00351A9C /* AAPLMenuViewController.m */; };
+		A6FC6AB41F6D527600351A9C /* AAPLAdaptivePresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A721F6D4CCD00351A9C /* AAPLAdaptivePresentationController.m */; };
+		A6FC6AB51F6D527600351A9C /* AAPLAdaptivePresentationFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A741F6D4CCD00351A9C /* AAPLAdaptivePresentationFirstViewController.m */; };
+		A6FC6AB61F6D527600351A9C /* AAPLAdaptivePresentationSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A761F6D4CCD00351A9C /* AAPLAdaptivePresentationSecondViewController.m */; };
+		A6FC6AB71F6D527600351A9C /* AAPLAdaptivePresentationSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A781F6D4CCD00351A9C /* AAPLAdaptivePresentationSegue.m */; };
+		A6FC6AB81F6D527600351A9C /* AAPLCheckerboardFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A801F6D4CCD00351A9C /* AAPLCheckerboardFirstViewController.m */; };
+		A6FC6AB91F6D527600351A9C /* AAPLCheckerboardTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A821F6D4CCD00351A9C /* AAPLCheckerboardTransitionAnimator.m */; };
+		A6FC6ABA1F6D527600351A9C /* AAPLCrossDissolveFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A861F6D4CCD00351A9C /* AAPLCrossDissolveFirstViewController.m */; };
+		A6FC6ABB1F6D527600351A9C /* AAPLCrossDissolveSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A881F6D4CCD00351A9C /* AAPLCrossDissolveSecondViewController.m */; };
+		A6FC6ABC1F6D527600351A9C /* AAPLCrossDissolveTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A8A1F6D4CCD00351A9C /* AAPLCrossDissolveTransitionAnimator.m */; };
+		A6FC6ABD1F6D527600351A9C /* AAPLCustomPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A8E1F6D4CCD00351A9C /* AAPLCustomPresentationController.m */; };
+		A6FC6ABE1F6D527600351A9C /* AAPLCustomPresentationFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A901F6D4CCD00351A9C /* AAPLCustomPresentationFirstViewController.m */; };
+		A6FC6ABF1F6D527600351A9C /* AAPLCustomPresentationSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A921F6D4CCD00351A9C /* AAPLCustomPresentationSecondViewController.m */; };
+		A6FC6AC01F6D527600351A9C /* AAPLSlideTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A991F6D4CCD00351A9C /* AAPLSlideTransitionAnimator.m */; };
+		A6FC6AC11F6D527600351A9C /* AAPLSlideTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A9B1F6D4CCD00351A9C /* AAPLSlideTransitionDelegate.m */; };
+		A6FC6AC21F6D527600351A9C /* AAPLSlideTransitionInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6A9D1F6D4CCD00351A9C /* AAPLSlideTransitionInteractionController.m */; };
+		A6FC6AC31F6D527600351A9C /* AAPLSwipeFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6AA11F6D4CCD00351A9C /* AAPLSwipeFirstViewController.m */; };
+		A6FC6AC41F6D527600351A9C /* AAPLSwipeSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6AA31F6D4CCD00351A9C /* AAPLSwipeSecondViewController.m */; };
+		A6FC6AC51F6D527600351A9C /* AAPLSwipeTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6AA51F6D4CCD00351A9C /* AAPLSwipeTransitionAnimator.m */; };
+		A6FC6AC61F6D527600351A9C /* AAPLSwipeTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6AA71F6D4CCD00351A9C /* AAPLSwipeTransitionDelegate.m */; };
+		A6FC6AC71F6D527600351A9C /* AAPLSwipeTransitionInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC6AA91F6D4CCD00351A9C /* AAPLSwipeTransitionInteractionController.m */; };
+		A6FC6AC91F6D536500351A9C /* CustomTransition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FC6AC81F6D530A00351A9C /* CustomTransition.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +121,57 @@
 		A6CCB99F1F654D6500428D21 /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
 		A6CCB9A01F654D6500428D21 /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
 		A6CCB9A71F69759A00428D21 /* YYS(WL)-color.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YYS(WL)-color.mp4"; sourceTree = "<group>"; };
+		A6FC6A6C1F6D4CCD00351A9C /* AAPLExternalStoryboardSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLExternalStoryboardSegue.h; sourceTree = "<group>"; };
+		A6FC6A6D1F6D4CCD00351A9C /* AAPLExternalStoryboardSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLExternalStoryboardSegue.m; sourceTree = "<group>"; };
+		A6FC6A6E1F6D4CCD00351A9C /* AAPLMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLMenuViewController.h; sourceTree = "<group>"; };
+		A6FC6A6F1F6D4CCD00351A9C /* AAPLMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLMenuViewController.m; sourceTree = "<group>"; };
+		A6FC6A711F6D4CCD00351A9C /* AAPLAdaptivePresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLAdaptivePresentationController.h; sourceTree = "<group>"; };
+		A6FC6A721F6D4CCD00351A9C /* AAPLAdaptivePresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLAdaptivePresentationController.m; sourceTree = "<group>"; };
+		A6FC6A731F6D4CCD00351A9C /* AAPLAdaptivePresentationFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLAdaptivePresentationFirstViewController.h; sourceTree = "<group>"; };
+		A6FC6A741F6D4CCD00351A9C /* AAPLAdaptivePresentationFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLAdaptivePresentationFirstViewController.m; sourceTree = "<group>"; };
+		A6FC6A751F6D4CCD00351A9C /* AAPLAdaptivePresentationSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLAdaptivePresentationSecondViewController.h; sourceTree = "<group>"; };
+		A6FC6A761F6D4CCD00351A9C /* AAPLAdaptivePresentationSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLAdaptivePresentationSecondViewController.m; sourceTree = "<group>"; };
+		A6FC6A771F6D4CCD00351A9C /* AAPLAdaptivePresentationSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLAdaptivePresentationSegue.h; sourceTree = "<group>"; };
+		A6FC6A781F6D4CCD00351A9C /* AAPLAdaptivePresentationSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLAdaptivePresentationSegue.m; sourceTree = "<group>"; };
+		A6FC6A791F6D4CCD00351A9C /* AdaptivePresentation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AdaptivePresentation.storyboard; sourceTree = "<group>"; };
+		A6FC6A7F1F6D4CCD00351A9C /* AAPLCheckerboardFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLCheckerboardFirstViewController.h; sourceTree = "<group>"; };
+		A6FC6A801F6D4CCD00351A9C /* AAPLCheckerboardFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLCheckerboardFirstViewController.m; sourceTree = "<group>"; };
+		A6FC6A811F6D4CCD00351A9C /* AAPLCheckerboardTransitionAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLCheckerboardTransitionAnimator.h; sourceTree = "<group>"; };
+		A6FC6A821F6D4CCD00351A9C /* AAPLCheckerboardTransitionAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLCheckerboardTransitionAnimator.m; sourceTree = "<group>"; };
+		A6FC6A831F6D4CCD00351A9C /* Checkerboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Checkerboard.storyboard; sourceTree = "<group>"; };
+		A6FC6A851F6D4CCD00351A9C /* AAPLCrossDissolveFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLCrossDissolveFirstViewController.h; sourceTree = "<group>"; };
+		A6FC6A861F6D4CCD00351A9C /* AAPLCrossDissolveFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLCrossDissolveFirstViewController.m; sourceTree = "<group>"; };
+		A6FC6A871F6D4CCD00351A9C /* AAPLCrossDissolveSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLCrossDissolveSecondViewController.h; sourceTree = "<group>"; };
+		A6FC6A881F6D4CCD00351A9C /* AAPLCrossDissolveSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLCrossDissolveSecondViewController.m; sourceTree = "<group>"; };
+		A6FC6A891F6D4CCD00351A9C /* AAPLCrossDissolveTransitionAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLCrossDissolveTransitionAnimator.h; sourceTree = "<group>"; };
+		A6FC6A8A1F6D4CCD00351A9C /* AAPLCrossDissolveTransitionAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLCrossDissolveTransitionAnimator.m; sourceTree = "<group>"; };
+		A6FC6A8B1F6D4CCD00351A9C /* CrossDissolve.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CrossDissolve.storyboard; sourceTree = "<group>"; };
+		A6FC6A8D1F6D4CCD00351A9C /* AAPLCustomPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLCustomPresentationController.h; sourceTree = "<group>"; };
+		A6FC6A8E1F6D4CCD00351A9C /* AAPLCustomPresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLCustomPresentationController.m; sourceTree = "<group>"; };
+		A6FC6A8F1F6D4CCD00351A9C /* AAPLCustomPresentationFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLCustomPresentationFirstViewController.h; sourceTree = "<group>"; };
+		A6FC6A901F6D4CCD00351A9C /* AAPLCustomPresentationFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLCustomPresentationFirstViewController.m; sourceTree = "<group>"; };
+		A6FC6A911F6D4CCD00351A9C /* AAPLCustomPresentationSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLCustomPresentationSecondViewController.h; sourceTree = "<group>"; };
+		A6FC6A921F6D4CCD00351A9C /* AAPLCustomPresentationSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLCustomPresentationSecondViewController.m; sourceTree = "<group>"; };
+		A6FC6A931F6D4CCD00351A9C /* CustomPresentation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomPresentation.storyboard; sourceTree = "<group>"; };
+		A6FC6A981F6D4CCD00351A9C /* AAPLSlideTransitionAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLSlideTransitionAnimator.h; sourceTree = "<group>"; };
+		A6FC6A991F6D4CCD00351A9C /* AAPLSlideTransitionAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLSlideTransitionAnimator.m; sourceTree = "<group>"; };
+		A6FC6A9A1F6D4CCD00351A9C /* AAPLSlideTransitionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLSlideTransitionDelegate.h; sourceTree = "<group>"; };
+		A6FC6A9B1F6D4CCD00351A9C /* AAPLSlideTransitionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLSlideTransitionDelegate.m; sourceTree = "<group>"; };
+		A6FC6A9C1F6D4CCD00351A9C /* AAPLSlideTransitionInteractionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLSlideTransitionInteractionController.h; sourceTree = "<group>"; };
+		A6FC6A9D1F6D4CCD00351A9C /* AAPLSlideTransitionInteractionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLSlideTransitionInteractionController.m; sourceTree = "<group>"; };
+		A6FC6A9E1F6D4CCD00351A9C /* Slide.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Slide.storyboard; sourceTree = "<group>"; };
+		A6FC6AA01F6D4CCD00351A9C /* AAPLSwipeFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLSwipeFirstViewController.h; sourceTree = "<group>"; };
+		A6FC6AA11F6D4CCD00351A9C /* AAPLSwipeFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLSwipeFirstViewController.m; sourceTree = "<group>"; };
+		A6FC6AA21F6D4CCD00351A9C /* AAPLSwipeSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLSwipeSecondViewController.h; sourceTree = "<group>"; };
+		A6FC6AA31F6D4CCD00351A9C /* AAPLSwipeSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLSwipeSecondViewController.m; sourceTree = "<group>"; };
+		A6FC6AA41F6D4CCD00351A9C /* AAPLSwipeTransitionAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLSwipeTransitionAnimator.h; sourceTree = "<group>"; };
+		A6FC6AA51F6D4CCD00351A9C /* AAPLSwipeTransitionAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLSwipeTransitionAnimator.m; sourceTree = "<group>"; };
+		A6FC6AA61F6D4CCD00351A9C /* AAPLSwipeTransitionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLSwipeTransitionDelegate.h; sourceTree = "<group>"; };
+		A6FC6AA71F6D4CCD00351A9C /* AAPLSwipeTransitionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLSwipeTransitionDelegate.m; sourceTree = "<group>"; };
+		A6FC6AA81F6D4CCD00351A9C /* AAPLSwipeTransitionInteractionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLSwipeTransitionInteractionController.h; sourceTree = "<group>"; };
+		A6FC6AA91F6D4CCD00351A9C /* AAPLSwipeTransitionInteractionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLSwipeTransitionInteractionController.m; sourceTree = "<group>"; };
+		A6FC6AAA1F6D4CCD00351A9C /* Swipe.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Swipe.storyboard; sourceTree = "<group>"; };
+		A6FC6AC81F6D530A00351A9C /* CustomTransition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomTransition.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -416,6 +496,7 @@
 		A65D3B231F6D304100117D55 /* UI-Transition */ = {
 			isa = PBXGroup;
 			children = (
+				A6FC6A691F6D4CCD00351A9C /* CustomTransitions */,
 			);
 			path = "UI-Transition";
 			sourceTree = "<group>";
@@ -438,6 +519,112 @@
 				A6CCB9A01F654D6500428D21 /* UIColor+Utils.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		A6FC6A691F6D4CCD00351A9C /* CustomTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6AC81F6D530A00351A9C /* CustomTransition.storyboard */,
+				A6FC6A6C1F6D4CCD00351A9C /* AAPLExternalStoryboardSegue.h */,
+				A6FC6A6D1F6D4CCD00351A9C /* AAPLExternalStoryboardSegue.m */,
+				A6FC6A6E1F6D4CCD00351A9C /* AAPLMenuViewController.h */,
+				A6FC6A6F1F6D4CCD00351A9C /* AAPLMenuViewController.m */,
+				A6FC6A701F6D4CCD00351A9C /* Adaptive Presentation */,
+				A6FC6A7E1F6D4CCD00351A9C /* Checkerboard */,
+				A6FC6A841F6D4CCD00351A9C /* Cross Dissolve */,
+				A6FC6A8C1F6D4CCD00351A9C /* Custom Presentation */,
+				A6FC6A971F6D4CCD00351A9C /* Slide */,
+				A6FC6A9F1F6D4CCD00351A9C /* Swipe */,
+			);
+			path = CustomTransitions;
+			sourceTree = "<group>";
+		};
+		A6FC6A701F6D4CCD00351A9C /* Adaptive Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6A711F6D4CCD00351A9C /* AAPLAdaptivePresentationController.h */,
+				A6FC6A721F6D4CCD00351A9C /* AAPLAdaptivePresentationController.m */,
+				A6FC6A731F6D4CCD00351A9C /* AAPLAdaptivePresentationFirstViewController.h */,
+				A6FC6A741F6D4CCD00351A9C /* AAPLAdaptivePresentationFirstViewController.m */,
+				A6FC6A751F6D4CCD00351A9C /* AAPLAdaptivePresentationSecondViewController.h */,
+				A6FC6A761F6D4CCD00351A9C /* AAPLAdaptivePresentationSecondViewController.m */,
+				A6FC6A771F6D4CCD00351A9C /* AAPLAdaptivePresentationSegue.h */,
+				A6FC6A781F6D4CCD00351A9C /* AAPLAdaptivePresentationSegue.m */,
+				A6FC6A791F6D4CCD00351A9C /* AdaptivePresentation.storyboard */,
+			);
+			path = "Adaptive Presentation";
+			sourceTree = "<group>";
+		};
+		A6FC6A7E1F6D4CCD00351A9C /* Checkerboard */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6A7F1F6D4CCD00351A9C /* AAPLCheckerboardFirstViewController.h */,
+				A6FC6A801F6D4CCD00351A9C /* AAPLCheckerboardFirstViewController.m */,
+				A6FC6A811F6D4CCD00351A9C /* AAPLCheckerboardTransitionAnimator.h */,
+				A6FC6A821F6D4CCD00351A9C /* AAPLCheckerboardTransitionAnimator.m */,
+				A6FC6A831F6D4CCD00351A9C /* Checkerboard.storyboard */,
+			);
+			path = Checkerboard;
+			sourceTree = "<group>";
+		};
+		A6FC6A841F6D4CCD00351A9C /* Cross Dissolve */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6A851F6D4CCD00351A9C /* AAPLCrossDissolveFirstViewController.h */,
+				A6FC6A861F6D4CCD00351A9C /* AAPLCrossDissolveFirstViewController.m */,
+				A6FC6A871F6D4CCD00351A9C /* AAPLCrossDissolveSecondViewController.h */,
+				A6FC6A881F6D4CCD00351A9C /* AAPLCrossDissolveSecondViewController.m */,
+				A6FC6A891F6D4CCD00351A9C /* AAPLCrossDissolveTransitionAnimator.h */,
+				A6FC6A8A1F6D4CCD00351A9C /* AAPLCrossDissolveTransitionAnimator.m */,
+				A6FC6A8B1F6D4CCD00351A9C /* CrossDissolve.storyboard */,
+			);
+			path = "Cross Dissolve";
+			sourceTree = "<group>";
+		};
+		A6FC6A8C1F6D4CCD00351A9C /* Custom Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6A8D1F6D4CCD00351A9C /* AAPLCustomPresentationController.h */,
+				A6FC6A8E1F6D4CCD00351A9C /* AAPLCustomPresentationController.m */,
+				A6FC6A8F1F6D4CCD00351A9C /* AAPLCustomPresentationFirstViewController.h */,
+				A6FC6A901F6D4CCD00351A9C /* AAPLCustomPresentationFirstViewController.m */,
+				A6FC6A911F6D4CCD00351A9C /* AAPLCustomPresentationSecondViewController.h */,
+				A6FC6A921F6D4CCD00351A9C /* AAPLCustomPresentationSecondViewController.m */,
+				A6FC6A931F6D4CCD00351A9C /* CustomPresentation.storyboard */,
+			);
+			path = "Custom Presentation";
+			sourceTree = "<group>";
+		};
+		A6FC6A971F6D4CCD00351A9C /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6A981F6D4CCD00351A9C /* AAPLSlideTransitionAnimator.h */,
+				A6FC6A991F6D4CCD00351A9C /* AAPLSlideTransitionAnimator.m */,
+				A6FC6A9A1F6D4CCD00351A9C /* AAPLSlideTransitionDelegate.h */,
+				A6FC6A9B1F6D4CCD00351A9C /* AAPLSlideTransitionDelegate.m */,
+				A6FC6A9C1F6D4CCD00351A9C /* AAPLSlideTransitionInteractionController.h */,
+				A6FC6A9D1F6D4CCD00351A9C /* AAPLSlideTransitionInteractionController.m */,
+				A6FC6A9E1F6D4CCD00351A9C /* Slide.storyboard */,
+			);
+			path = Slide;
+			sourceTree = "<group>";
+		};
+		A6FC6A9F1F6D4CCD00351A9C /* Swipe */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC6AA01F6D4CCD00351A9C /* AAPLSwipeFirstViewController.h */,
+				A6FC6AA11F6D4CCD00351A9C /* AAPLSwipeFirstViewController.m */,
+				A6FC6AA21F6D4CCD00351A9C /* AAPLSwipeSecondViewController.h */,
+				A6FC6AA31F6D4CCD00351A9C /* AAPLSwipeSecondViewController.m */,
+				A6FC6AA41F6D4CCD00351A9C /* AAPLSwipeTransitionAnimator.h */,
+				A6FC6AA51F6D4CCD00351A9C /* AAPLSwipeTransitionAnimator.m */,
+				A6FC6AA61F6D4CCD00351A9C /* AAPLSwipeTransitionDelegate.h */,
+				A6FC6AA71F6D4CCD00351A9C /* AAPLSwipeTransitionDelegate.m */,
+				A6FC6AA81F6D4CCD00351A9C /* AAPLSwipeTransitionInteractionController.h */,
+				A6FC6AA91F6D4CCD00351A9C /* AAPLSwipeTransitionInteractionController.m */,
+				A6FC6AAA1F6D4CCD00351A9C /* Swipe.storyboard */,
+			);
+			path = Swipe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -502,7 +689,7 @@
 		A65607B91F6506BC0063E9A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Shui;
 				TargetAttributes = {
 					A65607C01F6506BC0063E9A2 = {
@@ -549,6 +736,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6FC6AC91F6D536500351A9C /* CustomTransition.storyboard in Resources */,
+				A6FC6AB11F6D521600351A9C /* Swipe.storyboard in Resources */,
+				A6FC6AB01F6D520F00351A9C /* Slide.storyboard in Resources */,
+				A6FC6AAF1F6D520700351A9C /* CustomPresentation.storyboard in Resources */,
+				A6FC6AAE1F6D51FF00351A9C /* CrossDissolve.storyboard in Resources */,
+				A6FC6AAD1F6D51F600351A9C /* Checkerboard.storyboard in Resources */,
+				A6FC6AAC1F6D51EB00351A9C /* AdaptivePresentation.storyboard in Resources */,
 				A65607D71F6506BC0063E9A2 /* LaunchScreen.storyboard in Resources */,
 				A65608231F650E480063E9A2 /* Profile.storyboard in Resources */,
 				A656083B1F650EC10063E9A2 /* Main.storyboard in Resources */,
@@ -581,6 +775,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6FC6AB21F6D527600351A9C /* AAPLExternalStoryboardSegue.m in Sources */,
+				A6FC6AB31F6D527600351A9C /* AAPLMenuViewController.m in Sources */,
+				A6FC6AB41F6D527600351A9C /* AAPLAdaptivePresentationController.m in Sources */,
+				A6FC6AB51F6D527600351A9C /* AAPLAdaptivePresentationFirstViewController.m in Sources */,
+				A6FC6AB61F6D527600351A9C /* AAPLAdaptivePresentationSecondViewController.m in Sources */,
+				A6FC6AB71F6D527600351A9C /* AAPLAdaptivePresentationSegue.m in Sources */,
+				A6FC6AB81F6D527600351A9C /* AAPLCheckerboardFirstViewController.m in Sources */,
+				A6FC6AB91F6D527600351A9C /* AAPLCheckerboardTransitionAnimator.m in Sources */,
+				A6FC6ABA1F6D527600351A9C /* AAPLCrossDissolveFirstViewController.m in Sources */,
+				A6FC6ABB1F6D527600351A9C /* AAPLCrossDissolveSecondViewController.m in Sources */,
+				A6FC6ABC1F6D527600351A9C /* AAPLCrossDissolveTransitionAnimator.m in Sources */,
+				A6FC6ABD1F6D527600351A9C /* AAPLCustomPresentationController.m in Sources */,
+				A6FC6ABE1F6D527600351A9C /* AAPLCustomPresentationFirstViewController.m in Sources */,
+				A6FC6ABF1F6D527600351A9C /* AAPLCustomPresentationSecondViewController.m in Sources */,
+				A6FC6AC01F6D527600351A9C /* AAPLSlideTransitionAnimator.m in Sources */,
+				A6FC6AC11F6D527600351A9C /* AAPLSlideTransitionDelegate.m in Sources */,
+				A6FC6AC21F6D527600351A9C /* AAPLSlideTransitionInteractionController.m in Sources */,
+				A6FC6AC31F6D527600351A9C /* AAPLSwipeFirstViewController.m in Sources */,
+				A6FC6AC41F6D527600351A9C /* AAPLSwipeSecondViewController.m in Sources */,
+				A6FC6AC51F6D527600351A9C /* AAPLSwipeTransitionAnimator.m in Sources */,
+				A6FC6AC61F6D527600351A9C /* AAPLSwipeTransitionDelegate.m in Sources */,
+				A6FC6AC71F6D527600351A9C /* AAPLSwipeTransitionInteractionController.m in Sources */,
 				A65607C91F6506BC0063E9A2 /* AppDelegate.m in Sources */,
 				A6CCB99E1F652F2000428D21 /* PageContentView.m in Sources */,
 				A65608241F650E480063E9A2 /* ProfileViewController.m in Sources */,
@@ -650,7 +866,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -658,7 +876,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -699,7 +921,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -707,7 +931,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

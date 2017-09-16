@@ -35,7 +35,7 @@ static NSString *REUSABLE_CELL_ID = @"REUSABLE_CELL_ID";
                                   @"OpenGL":[NSNull class],
                                   @"Player":[NSNull class],
                                   @"UI":@[[DemoPopViewController class]],
-                                  @"UI-Transition":[NSNull class]};
+                                  @"UI-Transition":@[@"CustomTransition"]};
 
     _allSectionDict = [[NSDictionary alloc] initWithDictionary:sectionList copyItems:YES];
     
@@ -73,12 +73,19 @@ static NSString *REUSABLE_CELL_ID = @"REUSABLE_CELL_ID";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:REUSABLE_CELL_ID forIndexPath:indexPath];
     
     id key = [_allSectionDict allKeys][indexPath.section];
-    NSArray * value = [_allSectionDict valueForKey:key];
+    NSArray * valueArray = [_allSectionDict valueForKey:key];
     
-    NSAssert([value isKindOfClass:[NSArray class]], @"value list must in a NSArray.");
+    NSAssert([valueArray isKindOfClass:[NSArray class]], @"value list must in a NSArray.");
     
-    NSLog(@"value[%ld] = %@", indexPath.row, value[indexPath.row]);
-    [cell.textLabel setText: NSStringFromClass(value[indexPath.row])];
+    id value = valueArray[indexPath.row];
+    NSLog(@"valueArray[%ld] = %@", indexPath.row, value);
+    
+    if ([value isKindOfClass:[NSString class]]) {
+        [cell.textLabel setText: value];
+    }
+    else {
+        [cell.textLabel setText: NSStringFromClass(value)];
+    }
 
     return cell;
 }
@@ -86,14 +93,26 @@ static NSString *REUSABLE_CELL_ID = @"REUSABLE_CELL_ID";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     id key = [_allSectionDict allKeys][indexPath.section];
-    NSArray * value = [_allSectionDict valueForKey:key];
+    NSArray * valueArray = [_allSectionDict valueForKey:key];
     
-    NSAssert([value isKindOfClass:[NSArray class]], @"value list must in a NSArray.");
-    
-    if (value.count == 1) {
-        [self.navigationController pushViewController:[value[indexPath.row] new] animated:YES];
+    NSAssert([valueArray isKindOfClass:[NSArray class]], @"value list must in a NSArray.");
+
+    id value = valueArray[indexPath.row];
+    NSLog(@"didSelect: valueArray[%ld] = %@", indexPath.row, value);
+
+    if (valueArray.count == 1) {
+        if ([value isKindOfClass:[NSString class]]) {
+            UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:value bundle:nil];
+            UIViewController *vc = [storyBoard instantiateInitialViewController];
+            [self presentViewController:vc animated:YES completion:nil];
+        }
+        else {
+            [self.navigationController pushViewController:[value new] animated:YES];
+        }
     }
-    
+    else {
+        
+    }
     //
 }
 
