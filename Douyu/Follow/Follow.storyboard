@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0ku-X6-m5Y">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Follow View Controller-->
+        <scene sceneID="Je4-GU-sHP">
+            <objects>
+                <viewController id="qj5-cp-nd5" customClass="FollowViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0gB-Py-bJj"/>
+                        <viewControllerLayoutGuide type="bottom" id="CYa-g6-TyU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hi0-t5-QWb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Follow View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Z9A-AG-fDn">
+                                <rect key="frame" x="92" y="313" width="192" height="42"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDb-2f-Sw7">
+                                <rect key="frame" x="80" y="362.5" width="215" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="Z9A-AG-fDn" secondAttribute="centerY" id="Ktb-kw-3fa"/>
+                            <constraint firstAttribute="centerX" secondItem="Z9A-AG-fDn" secondAttribute="centerX" id="dQn-5e-Dr1"/>
+                            <constraint firstItem="oDb-2f-Sw7" firstAttribute="centerX" secondItem="Z9A-AG-fDn" secondAttribute="centerX" id="h3P-EX-250"/>
+                            <constraint firstItem="oDb-2f-Sw7" firstAttribute="top" secondItem="Z9A-AG-fDn" secondAttribute="bottom" constant="8" symbolic="YES" id="vbR-xR-Veh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="3XF-CY-vtM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Ap-bL-tk9" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="474" y="1337"/>
+        </scene>
+        <!--Follow-->
+        <scene sceneID="5Ms-y7-N1W">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0ku-X6-m5Y" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Follow" image="tabDiscovery" selectedImage="tabDiscoveryHL" id="vg8-gv-O0R"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5MW-SK-RGq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qj5-cp-nd5" kind="relationship" relationship="rootViewController" id="hfL-Pc-boG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RUE-Io-ucE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-324" y="1338"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabDiscovery" width="24" height="24"/>
+        <image name="tabDiscoveryHL" width="24" height="24"/>
+    </resources>
+</document>
