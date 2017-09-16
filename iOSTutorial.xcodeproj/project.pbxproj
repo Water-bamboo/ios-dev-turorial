@@ -47,16 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A65607C11F6506BC0063E9A2 /* Douyu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douyu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65607C11F6506BC0063E9A2 /* iOSTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65607C51F6506BC0063E9A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A65607C71F6506BC0063E9A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A65607C81F6506BC0063E9A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A65607D61F6506BC0063E9A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A65607D81F6506BC0063E9A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A65607DD1F6506BC0063E9A2 /* DouyuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouyuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65607DD1F6506BC0063E9A2 /* iOSTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65607E11F6506BC0063E9A2 /* DouyuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DouyuTests.m; sourceTree = "<group>"; };
 		A65607E31F6506BC0063E9A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A65607E81F6506BC0063E9A2 /* DouyuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouyuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65607E81F6506BC0063E9A2 /* iOSTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65607EC1F6506BC0063E9A2 /* DouyuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DouyuUITests.m; sourceTree = "<group>"; };
 		A65607EE1F6506BC0063E9A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A65608161F650D8F0063E9A2 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		A65607B81F6506BC0063E9A2 = {
 			isa = PBXGroup;
 			children = (
-				A65607C31F6506BC0063E9A2 /* Douyu */,
+				A65607C31F6506BC0063E9A2 /* Classes */,
 				A65607E01F6506BC0063E9A2 /* DouyuTests */,
 				A65607EB1F6506BC0063E9A2 /* DouyuUITests */,
 				A65607C21F6506BC0063E9A2 /* Products */,
@@ -123,14 +123,14 @@
 		A65607C21F6506BC0063E9A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A65607C11F6506BC0063E9A2 /* Douyu.app */,
-				A65607DD1F6506BC0063E9A2 /* DouyuTests.xctest */,
-				A65607E81F6506BC0063E9A2 /* DouyuUITests.xctest */,
+				A65607C11F6506BC0063E9A2 /* iOSTutorial.app */,
+				A65607DD1F6506BC0063E9A2 /* iOSTutorialTests.xctest */,
+				A65607E81F6506BC0063E9A2 /* iOSTutorialUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A65607C31F6506BC0063E9A2 /* Douyu */ = {
+		A65607C31F6506BC0063E9A2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				A656080F1F650BEC0063E9A2 /* Main */,
@@ -147,6 +147,7 @@
 				A65607C41F6506BC0063E9A2 /* Supporting Files */,
 				A6CCB99B1F6520CE00428D21 /* ConstValues.h */,
 			);
+			name = Classes;
 			path = Douyu;
 			sourceTree = "<group>";
 		};
@@ -363,9 +364,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A65607C01F6506BC0063E9A2 /* Douyu */ = {
+		A65607C01F6506BC0063E9A2 /* iOSTutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A65607F11F6506BC0063E9A2 /* Build configuration list for PBXNativeTarget "Douyu" */;
+			buildConfigurationList = A65607F11F6506BC0063E9A2 /* Build configuration list for PBXNativeTarget "iOSTutorial" */;
 			buildPhases = (
 				A65607BD1F6506BC0063E9A2 /* Sources */,
 				A65607BE1F6506BC0063E9A2 /* Frameworks */,
@@ -375,14 +376,14 @@
 			);
 			dependencies = (
 			);
-			name = Douyu;
+			name = iOSTutorial;
 			productName = Douyu;
-			productReference = A65607C11F6506BC0063E9A2 /* Douyu.app */;
+			productReference = A65607C11F6506BC0063E9A2 /* iOSTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A65607DC1F6506BC0063E9A2 /* DouyuTests */ = {
+		A65607DC1F6506BC0063E9A2 /* iOSTutorialTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A65607F41F6506BC0063E9A2 /* Build configuration list for PBXNativeTarget "DouyuTests" */;
+			buildConfigurationList = A65607F41F6506BC0063E9A2 /* Build configuration list for PBXNativeTarget "iOSTutorialTests" */;
 			buildPhases = (
 				A65607D91F6506BC0063E9A2 /* Sources */,
 				A65607DA1F6506BC0063E9A2 /* Frameworks */,
@@ -393,14 +394,14 @@
 			dependencies = (
 				A65607DF1F6506BC0063E9A2 /* PBXTargetDependency */,
 			);
-			name = DouyuTests;
+			name = iOSTutorialTests;
 			productName = DouyuTests;
-			productReference = A65607DD1F6506BC0063E9A2 /* DouyuTests.xctest */;
+			productReference = A65607DD1F6506BC0063E9A2 /* iOSTutorialTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A65607E71F6506BC0063E9A2 /* DouyuUITests */ = {
+		A65607E71F6506BC0063E9A2 /* iOSTutorialUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A65607F71F6506BC0063E9A2 /* Build configuration list for PBXNativeTarget "DouyuUITests" */;
+			buildConfigurationList = A65607F71F6506BC0063E9A2 /* Build configuration list for PBXNativeTarget "iOSTutorialUITests" */;
 			buildPhases = (
 				A65607E41F6506BC0063E9A2 /* Sources */,
 				A65607E51F6506BC0063E9A2 /* Frameworks */,
@@ -411,9 +412,9 @@
 			dependencies = (
 				A65607EA1F6506BC0063E9A2 /* PBXTargetDependency */,
 			);
-			name = DouyuUITests;
+			name = iOSTutorialUITests;
 			productName = DouyuUITests;
-			productReference = A65607E81F6506BC0063E9A2 /* DouyuUITests.xctest */;
+			productReference = A65607E81F6506BC0063E9A2 /* iOSTutorialUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -444,7 +445,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A65607BC1F6506BC0063E9A2 /* Build configuration list for PBXProject "Douyu" */;
+			buildConfigurationList = A65607BC1F6506BC0063E9A2 /* Build configuration list for PBXProject "iOSTutorial" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -457,9 +458,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A65607C01F6506BC0063E9A2 /* Douyu */,
-				A65607DC1F6506BC0063E9A2 /* DouyuTests */,
-				A65607E71F6506BC0063E9A2 /* DouyuUITests */,
+				A65607C01F6506BC0063E9A2 /* iOSTutorial */,
+				A65607DC1F6506BC0063E9A2 /* iOSTutorialTests */,
+				A65607E71F6506BC0063E9A2 /* iOSTutorialUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -535,12 +536,12 @@
 /* Begin PBXTargetDependency section */
 		A65607DF1F6506BC0063E9A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A65607C01F6506BC0063E9A2 /* Douyu */;
+			target = A65607C01F6506BC0063E9A2 /* iOSTutorial */;
 			targetProxy = A65607DE1F6506BC0063E9A2 /* PBXContainerItemProxy */;
 		};
 		A65607EA1F6506BC0063E9A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A65607C01F6506BC0063E9A2 /* Douyu */;
+			target = A65607C01F6506BC0063E9A2 /* iOSTutorial */;
 			targetProxy = A65607E91F6506BC0063E9A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -657,7 +658,7 @@
 				INFOPLIST_FILE = Douyu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sz.learn.Douyu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.learn.iosturotial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -670,7 +671,7 @@
 				INFOPLIST_FILE = Douyu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sz.learn.Douyu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sz.learn.iosturotial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -684,7 +685,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sz.learn.DouyuTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Douyu.app/Douyu";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTutorial.app/iOSTutorial";
 			};
 			name = Debug;
 		};
@@ -697,7 +698,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sz.learn.DouyuTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Douyu.app/Douyu";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTutorial.app/iOSTutorial";
 			};
 			name = Release;
 		};
@@ -728,7 +729,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A65607BC1F6506BC0063E9A2 /* Build configuration list for PBXProject "Douyu" */ = {
+		A65607BC1F6506BC0063E9A2 /* Build configuration list for PBXProject "iOSTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A65607EF1F6506BC0063E9A2 /* Debug */,
@@ -737,7 +738,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A65607F11F6506BC0063E9A2 /* Build configuration list for PBXNativeTarget "Douyu" */ = {
+		A65607F11F6506BC0063E9A2 /* Build configuration list for PBXNativeTarget "iOSTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A65607F21F6506BC0063E9A2 /* Debug */,
@@ -746,7 +747,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A65607F41F6506BC0063E9A2 /* Build configuration list for PBXNativeTarget "DouyuTests" */ = {
+		A65607F41F6506BC0063E9A2 /* Build configuration list for PBXNativeTarget "iOSTutorialTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A65607F51F6506BC0063E9A2 /* Debug */,
@@ -755,7 +756,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A65607F71F6506BC0063E9A2 /* Build configuration list for PBXNativeTarget "DouyuUITests" */ = {
+		A65607F71F6506BC0063E9A2 /* Build configuration list for PBXNativeTarget "iOSTutorialUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A65607F81F6506BC0063E9A2 /* Debug */,

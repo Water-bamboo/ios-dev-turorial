@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Douyu.xcodeproj">
+      location = "self:/Users/ants/Documents/projectstudy/ios-dev-turorial/iOSTutorial.xcodeproj">
    </FileRef>
 </Workspace>
